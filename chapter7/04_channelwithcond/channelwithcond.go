@@ -1,5 +1,11 @@
 package main
 
+/*
+	Modify listings 7.14 through 7.17 to implement a channel using condition
+	variables instead of semaphores. The implementation also needs to support
+	channels with a zero-sized buffer.
+*/
+
 import (
 	"container/list"
 	"fmt"
